@@ -1,0 +1,22 @@
+
+ul{
+    list-style: none;
+ 
+}
+.navigate-bar{
+    background-color: black;
+    color: white;
+    height:100vh;
+    display: flex ;
+    width: 150px;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#mylogo{
+    border-radius: 30px;
+}
