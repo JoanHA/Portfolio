@@ -1,0 +1,43 @@
+#contenedor {
+  padding: 250px 150px;
+  height: 100vh;
+  width: 100%;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#home h3 {
+  text-align: center;
+}
+#home button {
+   margin-top: 10px;
+    font-weight: bold;
+    color: #12a14b;
+  padding: 10px;
+  border-radius: 10px;
+  border:  2px solid  #12a14b;
+}
+#home button:hover{
+    font-weight: bold;
+    color: white;
+ background-color: #12a14b;
+ border:  2px solid  #fff;
+
+}
+#socials {
+    background-color: #12a14b;
+  position: absolute;
+  width: 50px;
+  height: 200px;
+  left: 0;
+  top: 40%;
+}

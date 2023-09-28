@@ -1,22 +1,25 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/Joan-Logo.png";
-
+import { Home } from "../components/home";
 export function Navigation() {
-  
+
   return (
     <>
-      <header> 
-        <div>
+      <header id="header"> 
+        <div id="first-info">
+          <img src={logo} alt="Logo Description" height={70} width={70} />
           <a href="#">Joan Hurtado</a>
         </div>
         <span>
-            <Link to="/">Home</Link>
-            <Link to="/about">About / Skills</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <a href="#home">Home</a>
+            <a href="#about">About / Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
           </span>
          
       </header>
+
+    
     </>
   );
 }

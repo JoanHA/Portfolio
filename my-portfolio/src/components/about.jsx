@@ -1,7 +1,10 @@
 export function About(){
     return(
         <>
-        <div className="">about</div>
+        <section id="about">
+        about
+        </section>
+        
         </>
     )
 

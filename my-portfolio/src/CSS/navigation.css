@@ -7,8 +7,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 3;
+    margin-bottom: 10px;
+    overflow: visible;
+    position: fixed;
 
 }
+
 header span{
     display: flex;
     align-items: center;
@@ -20,4 +25,9 @@ header span a{
 }
 header span a:hover{
     border-bottom: 3px solid black;
+ }
+#first-info{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
  }
