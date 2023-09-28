@@ -1,0 +1,72 @@
+section #main-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+#main-info h1{
+    padding: 10px;
+}
+.information{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 10px 30px;
+
+}
+.information .get-know{
+    width: 30%;
+    padding: 10px;
+}
+.information #skills{
+    margin-left: 100px;
+    width: 60%;
+    
+}
+#skills h2{
+    text-align: center;
+    
+  
+}
+.fullContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.front-back{
+    display: inline-block;
+    width: 40%; 
+    height: 300px; 
+    min-width: 40%;
+    background-color: #f0f0f0; 
+    margin: 10px; 
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 5px 20px gray;
+}
+.skillGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+   
+}
+.skillGroup span{
+   background-color: #e7e7e7;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.skillContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

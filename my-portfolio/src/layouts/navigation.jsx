@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/Joan-Logo.png";
-import { Home } from "../components/home";
+
 export function Navigation() {
 
   return (
@@ -8,7 +8,7 @@ export function Navigation() {
       <header id="header"> 
         <div id="first-info">
           <img src={logo} alt="Logo Description" height={70} width={70} />
-          <a href="#">Joan Hurtado</a>
+          <a href="#" id="name">Joan Hurtado</a>
         </div>
         <span>
             <a href="#home">Home</a>

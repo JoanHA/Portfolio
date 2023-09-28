@@ -1,7 +1,7 @@
 header{  
     padding: 5px;
     background-color: #fff;
-    box-shadow: 2px 5px 20px gray;
+    box-shadow: 1px 1px 6px black;
     width: 100%;
     height: 70px;
     display: flex;
@@ -13,7 +13,11 @@ header{
     position: fixed;
 
 }
-
+#name{
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+}
 header span{
     display: flex;
     align-items: center;
@@ -21,6 +25,7 @@ header span{
 }
 header span a{
     margin: 0 10px;
+    font-weight: 700;
     text-decoration: none;
 }
 header span a:hover{
