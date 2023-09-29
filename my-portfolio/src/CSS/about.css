@@ -1,72 +1,109 @@
-section #main-info{
+section .main-info{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 } 
-#main-info h1{
+.main-info h1{
     padding: 10px;
+    letter-spacing: 3px;
 }
+
+
 .information{
     display: flex;
     align-items: center;
     flex-direction: row;
     align-items: flex-start;
     margin: 10px 30px;
+    gap: 10rem;
 
 }
 .information .get-know{
-    width: 30%;
+    width: 90%;
     padding: 10px;
 }
-.information #skills{
-    margin-left: 100px;
-    width: 60%;
-    
+.get-know button{ 
+    width : 200px;
+   margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  /* background-color: #12a14b; */
+  background-color: #7843e9;
+  border:  2px solid  #7843e9;
+
 }
-#skills h2{
-    text-align: center;
-    
-  
+.get-know button:hover{
+    filter: brightness(80%);
 }
+
+
 .fullContainer{
     display: flex;
     flex-wrap: wrap;
 }
-.front-back{
-    display: inline-block;
-    width: 40%; 
-    height: 300px; 
-    min-width: 40%;
-    background-color: #f0f0f0; 
-    margin: 10px; 
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 2px 5px 20px gray;
-}
-.skillGroup{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    flex-wrap: wrap;
-   
-}
-.skillGroup span{
-   background-color: #e7e7e7;
+
+.skillContainer span{
+    background: rgba(153,153,153,.2);
     padding: 5px;
     border-radius: 5px;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
+    color: rgb(77, 77, 77);
+    border: none;
 }
 .skillContainer{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    justify-content: space-between;
+     gap: 10px;
     flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.main-info h1{
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+/* #main-info h1::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 3.8rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843e9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    
+} */
+.h1_border{
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843e9;
+    left: 50%;
+    transform: translateX(-6%);
+    border-radius: 5px;
+    
+}
+.self-descripcion{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#skills{
+    padding: 10px;
+}
+.front-back h6{
+    
+    padding: 10px 0;
+    border-radius: 10px;
+    border-bottom: 5px solid #7843e9;
+   
+
 }

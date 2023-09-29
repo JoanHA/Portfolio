@@ -1,0 +1,23 @@
+#projects .main-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.h1_border{
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843e9;
+    left: 50%;
+    transform: translateX(-6%);
+    border-radius: 5px;
+    
+}
+.main-info h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#projects{
+    height: 100vh;
+}
