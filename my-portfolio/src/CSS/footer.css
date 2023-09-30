@@ -1,0 +1,28 @@
+#footer{
+background-color: white;
+    position: relative;
+    color: black;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 40px;
+    box-shadow: 0px -5px 40px lightgray;
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.footer-info{
+    width: 50%;
+}
+.footer-info p{
+    color: black;
+    font-size: small;
+}
+#copyright{
+    padding: 10px;
+    font-size: x-small;
+    text-align: center;
+}

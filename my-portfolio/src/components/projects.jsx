@@ -3,6 +3,7 @@ import "../CSS/about.css";
 export function Projects(){
     return(
         <>
+        <div id="Project1"></div>
         <section id="projects">
 
             <div className="main-info">

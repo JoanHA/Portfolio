@@ -3,6 +3,7 @@ import check from "../assets/check.svg";
 export function About() {
   return (
     <>
+    <div id="About"></div>
       <section id="about">
         <div className="main-info">
           <h1>About me</h1>
@@ -18,12 +19,12 @@ export function About() {
             <h3>Get To Know Me!</h3>
             <p> I'm a <strong>Bilingüal FullStack Developer </strong> building desktop Applications, websites, mobile applications and everything related to technology. 
             Check out some of my work in the Projects section.</p>
-            <p>  I have also worked with <strong>agile methodologies </strong> like Scrum and Kambam  being the product owner of an e-commerce. I also have knowdledge of information security having a certificate of <strong>information security diagnostician </strong> in accordance with analysis methods and technical regulations using the <strong>ISO 27001</strong>  standard.</p>
+            <p>  I have also worked with <strong>agile methodologies </strong> like Scrum and Kambam  being the product owner of an e-commerce. I also have knowledge of information security having a certificate of <strong>information security diagnostician </strong> in accordance with analysis methods and technical regulations using the <strong>ISO 27001</strong>  standard.</p>
             <p>I'm open to Job opportunities where I can contribute, learn and
             grow. If you have a good opportunity that matches my skills and
             experience then don't hesitate to contact me. </p>
 
-          <button>PROJECTS</button>
+          <button className="btn-send">PROJECTS</button>
            
           </div>
 

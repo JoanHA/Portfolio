@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+
 import logo from "../assets/Joan-Logo.png";
 
 export function Navigation() {
+
+  
 
   return (
     <>
@@ -11,10 +13,10 @@ export function Navigation() {
           <a href="#" id="name">Joan Hurtado</a>
         </div>
         <span>
-            <a href="#home">Home</a>
-            <a href="#about">About / Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#contenedor">Home</a>
+            <a href="#About">About</a>
+            <a href="#Project1">Projects</a>
+            <a href="#Contact">Contact</a>
           </span>
          
       </header>
