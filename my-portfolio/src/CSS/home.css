@@ -49,6 +49,11 @@
  filter: brightness(80%);
 
 }
+#get-a{
+
+  color: white;
+  padding: 5% 14%
+}
 #socials {
     background-color: white;
   position: absolute;

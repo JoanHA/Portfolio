@@ -1,5 +1,6 @@
 
 import check from "../assets/check.svg";
+import "../CSS/about.css"
 export function About() {
   return (
     <>
@@ -24,7 +25,9 @@ export function About() {
             grow. If you have a good opportunity that matches my skills and
             experience then don't hesitate to contact me. </p>
 
-          <button className="btn-send">PROJECTS</button>
+          <button className="btn-send" >
+            <a href="#projects" id="btn-project">PROJECTS</a>
+          </button>
            
           </div>
 

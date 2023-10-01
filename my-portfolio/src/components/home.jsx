@@ -10,14 +10,14 @@ export function Home() {
 
       <section className="" id="contenedor">
         <div id="socials">
-          <a href="">
-            <img src={github} alt="" />
+          <a href="https://github.com/JoanHA">
+            <img src={github} alt="social media image" />
           </a>
-          <a href="">
-            <img src={linkedin} alt="" width={30} />
+          <a href="https://www.linkedin.com/in/joan-hurtado-a04ab1255/">
+            <img src={linkedin} alt="social media image" width={30} />
           </a>
-          <a href="">
-            <img src={instagram} alt="" />
+          <a href="https://www.instagram.com/joan_hurtado19/">
+            <img src={instagram} alt="social media image" />
           </a>
         </div>
         <div id="home">
@@ -28,7 +28,11 @@ export function Home() {
             overall product
           </p>
 
-          <button>Get to know me </button>
+          <button>
+            <a href="#about" id="get-a">
+            Get to know me
+            </a>
+             </button>
         </div>
       </section>
       <div id="wave-div">

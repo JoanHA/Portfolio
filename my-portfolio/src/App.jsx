@@ -17,7 +17,6 @@ function App() {
       <About/>
       <Projects/>
       <Contact/>
-      
       <Footer/>
 
     </>

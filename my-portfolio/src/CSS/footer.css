@@ -26,3 +26,12 @@ background-color: white;
     font-size: x-small;
     text-align: center;
 }
+.footer-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 2px 5px 20px gray;
+    padding: 10px;
+    gap: 15px;
+}

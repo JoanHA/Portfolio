@@ -14,9 +14,9 @@ export function Navigation() {
         </div>
         <span>
             <a href="#contenedor">Home</a>
-            <a href="#About">About</a>
-            <a href="#Project1">Projects</a>
-            <a href="#Contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
           </span>
          
       </header>

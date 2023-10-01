@@ -25,12 +25,19 @@ export default function Footer() {
             <h3>Social</h3>
           </div>
           <div className="footer-icons">
-            <div>
-              <span><img width={40} src={instagram} alt="social-image" /></span>
-              <span><img width={30} src={linkedin} alt="social-image" /></span>
-              <span><img width={30} src={github} alt="social-image" /></span>
-              <span><img width={30} src={whatsapp} alt="social-image" /></span>
-              <span><img width={30} src={email} alt="social-image" /></span>
+            <div className="footer-icon-container">
+              <a href="https://www.instagram.com/joan_hurtado19/">
+                <img width={40} src={instagram} alt="social-image" />
+              </a>
+              <a href="https://www.linkedin.com/in/joan-hurtado-a04ab1255/">
+                <img width={30} src={linkedin} alt="social-image" />
+              </a>
+              <a href="https://github.com/JoanHA">
+                <img width={40} src={github} alt="social-image" />
+              </a>
+              <a href="#">
+                <img width={30} src={email} alt="social-image" />
+              </a>
             </div>
           </div>
         </div>

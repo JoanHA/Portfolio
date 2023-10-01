@@ -1,23 +1,97 @@
-#projects .main-info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+#projects .main-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.h1_border{
-    top: calc(100% + 1.5rem);
-    height: 5px;
-    width: 3rem;
-    background: #7843e9;
-    left: 50%;
-    transform: translateX(-6%);
-    border-radius: 5px;
-    
+.h1_border {
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 3rem;
+  background: #7843e9;
+  left: 50%;
+  transform: translateX(-6%);
+  border-radius: 5px;
 }
-.main-info h1{
-    font-weight: 700;
-    text-transform: uppercase;
+.main-info h1 {
+  font-weight: 700;
+  text-transform: uppercase;
 }
-#projects{
-    height: 100vh;
+#projects {
+  position: relative;
+  padding-top: 80px;
+}
+
+.option-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.options {
+  margin-bottom: 3px;
+}
+.option-box button {
+  text-align: center;
+  width: 90px;
+  padding: 5px 10px;
+  border: none;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  border-bottom: 3px solid white;
+}
+.option-box button:hover {
+  background-color: white;
+  border-bottom: 3px solid black;
+
+  color: black;
+  font-weight: 600;
+}
+.active {
+  color: black;
+  font-weight: 600;
+  border-bottom: 3px solid black !important;
+}
+
+.projects-container {
+  position: relative;
+  margin: 10px 0;
+}
+.ProjectImage {
+  width: 400px;
+  height: 250px;
+  background-color: #7843e9;
+  border-radius: 10px;
+  padding: 20px;
+}
+.projects {
+  padding: 40px;
+  display: flex;
+
+  flex-direction: row;
+  gap: 30px;
+ 
+
+}
+.tools {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-transform: uppercase;
+}
+.tools span {
+  background: rgba(153, 153, 153, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: rgb(77, 77, 77);
+  border: none;
+}
+.project-info p{
+  text-align: left;
+  width: 80%;
 }

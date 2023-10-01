@@ -6,8 +6,8 @@ import arrow from "../assets/arrow.svg";
 export function Contact() {
   return (
     <>
-    <div id="Contact"></div>
-      <section id="contact" style={{  marginBottom:"150px" }}>
+    
+      <section id="contact" style={{  marginBottom:"180px" }}>
         <div className="main-info">
           <h1 className="main_h1">Contact</h1>
           <p className="h1_border"></p>
