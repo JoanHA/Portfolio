@@ -3,7 +3,33 @@ import linkedin from "../assets/linkedin.svg";
 import whatsapp from "../assets/whatsapp.svg";
 import email from "../assets/email.svg";
 import arrow from "../assets/arrow.svg";
+import emailjs from "@emailjs/browser"
+
+
 export function Contact() {
+
+
+  const  sendEmail = (event)=>{
+    event.preventDefault();
+    emailjs.sendForm('service_4y9medf','template_m00l0hm',event.target,'uHVXsk4OZ0jSV2qaY')
+    .then(response => {
+      console.log(response.status)
+      if(response.status == 200){
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Your message has been sent!',
+          showConfirmButton: false,
+          timer: 3000
+        }).then(()=>event.target.submit())
+        
+      }
+    })
+  
+    .catch(erro => console.log(erro))
+
+  }
+
   return (
     <>
     
@@ -43,10 +69,12 @@ export function Contact() {
               <img src={arrow} alt="" className="arrowImg" /></a>
             </div>
           </div>
+          {/* Formulario */}
           <div className="contact-form">
             <h3>Send me a message</h3>
 
             <div className="inputGroup">
+              <form action="" onSubmit={sendEmail} id="form-contact">
               <div className="inputText">
                 {" "}
                 <label htmlFor="">Name</label>
@@ -81,7 +109,14 @@ export function Contact() {
                 ></textarea>
               </div>
 
-              <button className="btn-send">SEND</button>
+              <button className="btn-send align-self-center">SEND <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style={{ marginLeft:"5px", marginBottom:"3px" }} className="bi bi-send " viewBox="0 0 16 16">
+  <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+</svg></button>
+
+
+
+              </form>
+              
             </div>
           </div>
         </div>

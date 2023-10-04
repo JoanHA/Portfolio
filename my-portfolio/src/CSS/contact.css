@@ -26,12 +26,19 @@
 }
 .social-form {
   display: flex;
-  gap: 5px;
+  gap: 8px;
   flex-direction: column;
 }
 .social-box img {
   width: 20px;
   height: auto;
+}
+#form-contact{
+  display: flex;
+  align-content: start;
+  flex-direction: column;
+  justify-items: start;
+  flex-wrap: wrap;
 }
 
 .contact-form {
@@ -42,7 +49,7 @@
   flex-wrap: wrap;
 }
 .inputGroup {
-  padding: 30px;
+
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -83,4 +90,7 @@
     margin-left: 4px;
     width: 15px !important;
     height: auto;
+}
+.inputText{
+  margin-top: 20px;
 }

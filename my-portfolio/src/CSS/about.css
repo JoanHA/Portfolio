@@ -13,6 +13,12 @@ section .main-info {
   height: 100vh;
   padding-top: 80px;
 }
+.images{
+  width: 350px ;
+  height: 220px ;
+  border-radius: 20px;
+
+}
 
 .information {
   display: flex;
@@ -71,6 +77,26 @@ section .main-info {
   margin: 10px 0;
 }
 
+.a-send{
+  text-align: center;
+  display: block;
+  width: 200px;
+  position: relative;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #7843e9;
+  border: 2px solid #7843e9;
+
+}
+.view-eye{
+  margin-left: 5px;
+  color: white;
+  margin-bottom: 3px;
+
+}
 .main-info h1 {
   font-weight: 700;
   text-transform: uppercase;
@@ -96,4 +122,8 @@ section .main-info {
   padding: 10px 0;
   border-radius: 10px;
   border-bottom: 5px solid #7843e9;
+}
+
+.tools span{
+  text-transform: uppercase;
 }

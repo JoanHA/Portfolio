@@ -35,9 +35,7 @@ export default function Footer() {
               <a href="https://github.com/JoanHA">
                 <img width={40} src={github} alt="social-image" />
               </a>
-              <a href="#">
-                <img width={30} src={email} alt="social-image" />
-              </a>
+             
             </div>
           </div>
         </div>

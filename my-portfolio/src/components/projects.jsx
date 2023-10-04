@@ -1,5 +1,8 @@
 import "../CSS/projects.css";
 import "../CSS/about.css";
+import view from"../assets/view.svg";
+import innova from "../assets/innova.jpg"
+
 import { useState } from "react";
 export function Projects() {
   const [web, setWeb] = useState(true);
@@ -79,59 +82,32 @@ export function Projects() {
               <div className="projects ">
                 <div className="project-image">
                   <div className="ProjectImage">
-                    <img src="" alt="project image" />
+                    <img src={innova} alt="project image" className="images"  />
                   </div>
                 </div>
                 <div className="project-info-container">
                   <div className="project-info ">
-                    <h4>name web</h4>
+                    <h4>InnovaTech E-commerce</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Ipsam saepe iusto voluptatum? Reiciendis veniam labore
-                      libero explicabo at expedita possimus repellendus
-                      corrupti, iste tempore quia consectetur, magni ducimus.
-                      Ullam, illo.
+                     Innova Tech is an e-commerce created to a tech company. This e-commerce was created with a group which I was the leader. I created mostly the backend like the add to Cart, Comments,  Contact, etc and the frontend like About us, Contact View, Cart view, Categories, Etc.
                     </p>
-
                     <h6>Tools Used</h6>
                     <div className="tools">
                       <span>JavaScript</span>
-                      <span>Html</span>
+                      <span>HTML</span>
                       <span>CSS</span>
-                      <span>React</span>
+                      <span>Laravel</span>
+                      <span>PHP</span>
+                      <span>BOOTStRAP</span>
                     </div>
-                    <button className="btn-send">Ver </button>
-                  </div>
-                </div>
-              </div>
-              <div className="projects ">
-                <div className="project-image">
-                  <div className="ProjectImage">
-                    <img src="" alt="project image" />
-                  </div>
-                </div>
-                <div className="project-info-container">
-                  <div className="project-info ">
-                    <h4>name web</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Ipsam saepe iusto voluptatum? Reiciendis veniam labore
-                      libero explicabo at expedita possimus repellendus
-                      corrupti, iste tempore quia consectetur, magni ducimus.
-                      Ullam, illo.
-                    </p>
 
-                    <h6>Tools Used</h6>
-                    <div className="tools">
-                      <span>JavaScript</span>
-                      <span>Html</span>
-                      <span>CSS</span>
-                      <span>React</span>
-                    </div>
-                    <button className="btn-send">Ver </button>
+                    <a href="https://innovatechcol.com.co/" target="_blank" className="a-send">Let's see it! 
+                    <span><img src={view} alt="" width={20}   className="view-eye"/></span>
+                    </a>
                   </div>
                 </div>
               </div>
+              
             </>
           )}
           {/* Projects Desktop */}
@@ -162,7 +138,9 @@ export function Projects() {
                       <span>CSS</span>
                       <span>React</span>
                     </div>
-                    <button className="btn-send">Ver </button>
+                    <a href="https://innovatechcol.com.co/" target="_blank" className="a-send">Let's see it! 
+                    <span><img src={view} alt="" width={20}   className="view-eye"/></span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -195,7 +173,9 @@ export function Projects() {
                       <span>CSS</span>
                       <span>React</span>
                     </div>
-                    <button className="btn-send">Ver </button>
+                    <a href="https://innovatechcol.com.co/" target="_blank" className="a-send">Let's see it! 
+                    <span><img src={view} alt="" width={20}   className="view-eye"/></span>
+                    </a>
                   </div>
                 </div>
               </div>

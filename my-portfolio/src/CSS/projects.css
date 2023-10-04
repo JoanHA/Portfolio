@@ -61,10 +61,13 @@
 }
 .ProjectImage {
   width: 400px;
-  height: 250px;
-  background-color: #7843e9;
+  height: 260px;
+  background-color: #d6d6d6;
+
   border-radius: 10px;
+  border: 1px solid #d6d6d6 ;
   padding: 20px;
+  
 }
 .projects {
   padding: 40px;
