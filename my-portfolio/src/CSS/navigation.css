@@ -36,3 +36,15 @@ header span a:hover{
     display: flex;
     justify-content: space-between;
  }
+
+ /* Responsive design */
+ @media screen and (max-width:610px){
+    .linksContainer{
+        display: none;
+    }
+    #header{
+        align-items: center;
+        justify-content: center;
+    }
+  
+ }

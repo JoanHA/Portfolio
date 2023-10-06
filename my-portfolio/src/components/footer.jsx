@@ -10,10 +10,10 @@ export default function Footer() {
       <div className="main-footer">
         <div className="footer-info">
           <div>
-            <h4>Joan Hurtado (FullStack Developer)</h4>
+            <h4 className="footerText">Joan Hurtado (FullStack Developer)</h4>
           </div>
           <div>
-            <p>
+            <p className="footerText">
               I'm a Bilingüal FullStack Developer building desktop Applications,
               websites, mobile applications and everything related to
               technology.

@@ -12,7 +12,7 @@ export function Navigation() {
           <img src={logo} alt="Logo Description" height={70} width={70} />
           <a href="#" id="name">Joan Hurtado</a>
         </div>
-        <span>
+        <span className="linksContainer">
             <a href="#contenedor">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>

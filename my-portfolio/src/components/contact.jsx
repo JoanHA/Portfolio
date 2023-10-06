@@ -4,9 +4,10 @@ import whatsapp from "../assets/whatsapp.svg";
 import email from "../assets/email.svg";
 import arrow from "../assets/arrow.svg";
 import emailjs from "@emailjs/browser"
+import github from "../assets/github.svg";
 
 
-export function Contact() {
+export  default function Contact() {
 
 
   const  sendEmail = (event)=>{
@@ -37,7 +38,7 @@ export function Contact() {
         <div className="main-info">
           <h1 className="main_h1">Contact</h1>
           <p className="h1_border"></p>
-          <p>
+          <p id="contactInfo">
             Feel free to Contact me by submitting the form below and I will get
             back to you as soon as possible
           </p>
@@ -49,7 +50,7 @@ export function Contact() {
               <img src={email} alt="here a image" />
               <h6>Email</h6>
               <p className="social-text">joanhurtado134@outlook.es</p>
-              <a className="social-send" href="">send me a message  
+              <a className="social-send" href="https://outlook.live.com/">send me a message  
               <img src={arrow} alt="" className="arrowImg" />
               </a>
             </div>
@@ -62,10 +63,10 @@ export function Contact() {
                </a>
             </div>
             <div className="social-box">
-              <img src={whatsapp} alt="here a image" />
-              <h6>Whatsapp</h6>
-              <p className="social-text">+57 3176201788</p>
-              <a className="social-send" href="">send me a message
+              <img src={github} alt="here a image"  id="git"/>
+              <h6>Git Hub</h6>
+              <p className="social-text">https://github.com/JoanHA</p>
+              <a className="social-send" href="https://github.com/JoanHA">send me a message
               <img src={arrow} alt="" className="arrowImg" /></a>
             </div>
           </div>

@@ -1,0 +1,50 @@
+#hiddenContainer{
+    font-weight: 800;
+    font-size: x-small;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;  
+    height: 50px;
+    background-color: hsla(45, 17%, 95%, .8);;
+    width: 100%;
+    border-radius: 100px;   
+    box-shadow: -3px -3px 4px lightgray;
+
+}
+#allContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    bottom: 0;
+    z-index: 10000;
+    position: fixed;
+    width: 100%;
+    display: none;
+    margin: 0 10px;
+  
+}
+.pageLink a{
+    text-align: center;
+}
+.pageLink{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-radius: 7px;
+    height: 40px;
+    
+}
+.pageLink:hover{
+    background-color: lightgray;
+   
+
+}
+@media screen and (max-width:610px){
+    #allContainer{
+        display: block;
+
+    }
+}

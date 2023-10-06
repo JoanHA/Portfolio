@@ -1,6 +1,7 @@
 #contact{
     height: 100vh;
     padding-top: 80px;
+    position: relative;
  
 }
 
@@ -94,3 +95,56 @@
 .inputText{
   margin-top: 20px;
 }
+
+#git{
+  width: 40px !important;
+}
+/* Responsive Design */
+@media screen and (max-width:751px) {
+
+#contact{
+  margin: 0 10px;
+}
+
+  
+}
+@media screen and (max-width:751px) {
+
+ 
+  .main-form{
+    gap: 3rem;
+  }
+    
+  }
+  @media screen and (max-width:650px) {
+
+    .main-form{
+      gap: 3rem;
+      flex-direction: column;
+    }
+    .social-form{
+      margin: 0 auto;
+
+    }
+    .contact-form{
+      margin: 0 auto;
+    }
+    #contactInfo{
+      width: 80%;
+      text-align: center;
+    }
+    .social-box{
+      width: 260px;
+      padding-top: 20px;
+    }
+    .social-box p{
+      font-size: smaller;
+    }
+      
+    }
+    @media screen and (max-width:325px) {
+      
+      .main-form{
+        margin: 1px 10px;
+      }
+    }

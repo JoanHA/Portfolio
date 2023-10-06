@@ -3,7 +3,8 @@ import { Navigation } from "../layouts/navigation";
 import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
-export function Home() {
+
+export default function Home() {
   return (
     <>
       <Navigation />
@@ -21,14 +22,14 @@ export function Home() {
           </a>
         </div>
         <div id="home">
-          <h1> HEY, I'M JOAN HURTADO</h1>
-          <p>
+          <h1 id="nameTitle"> HEY, I'M JOAN HURTADO</h1>
+          <p id="titleDescription">
             A Backend focused FullStack Developer building the Frontend-Backend
             of Websites and Web Applications that leads to the success of the
             overall product
           </p>
 
-          <button>
+          <button id="homeButton">
             <a href="#about" id="get-a">
             Get to know me
             </a>

@@ -1,4 +1,5 @@
 #projects .main-info {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,6 +28,7 @@
   flex-direction: row;
   gap: 10px;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .options {
@@ -70,7 +72,7 @@
   
 }
 .projects {
-  padding: 40px;
+  padding: 20px;
   display: flex;
 
   flex-direction: row;
@@ -83,6 +85,7 @@
   flex-direction: row;
   gap: 10px;
   text-transform: uppercase;
+  flex-wrap: wrap;
 }
 .tools span {
   background: rgba(153, 153, 153, 0.2);
@@ -97,4 +100,82 @@
 .project-info p{
   text-align: left;
   width: 80%;
+}
+/* Responsive design */
+@media screen and (max-width:926px){
+  .projects {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
+  .projects p{
+    text-align: center;
+    width: 100%;
+  }
+  .tools{
+    align-items: center;
+    justify-content: center;
+  }
+  .project-info p{
+    width: 60% !important; 
+    margin: 10px auto;
+  }
+ 
+  .a-send{
+    margin: 20px auto;
+  }
+  
+}
+@media screen and (max-width:550px){
+  .projects p{
+    text-align: center;
+    width: 100% !important;
+  }
+
+}
+@media screen and (max-width:440px){
+  .projects {
+   margin: 0 10px;
+  }
+  .ProjectImage{
+      width: 350px;
+      height: auto;
+  }
+  .ProjectImage img{
+    width: 300px;
+    height: auto;
+}
+
+}
+@media screen and (max-width:390px){
+  .projects {
+    margin: 0 10px;
+   }
+   .ProjectImage{
+       width: 300px;
+       height: auto;
+   }
+   .ProjectImage img{
+     width: 250px;
+     height: auto;
+ }
+
+}
+@media screen and (max-width:330px){
+  .projects {
+    margin: 0 10px;
+    padding: 10px;
+   }
+   .ProjectImage{
+       width: 250px;
+       height: auto;
+   }
+   .ProjectImage img{
+     width: 200px;
+     height: auto;
+ }
+
 }

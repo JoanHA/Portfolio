@@ -4,11 +4,13 @@ import view from"../assets/view.svg";
 import innova from "../assets/innova.jpg"
 
 import { useState } from "react";
-export function Projects() {
+export  default function Projects() {
+  // View status
   const [web, setWeb] = useState(true);
   const [mobile, setmobile] = useState(true);
   const [desktop, setdesktop] = useState(true);
   const [all, setall] = useState(true);
+//View changes methods
   const handleWeb = () => {
     setWeb(true);
     setmobile(false);
@@ -99,6 +101,7 @@ export function Projects() {
                       <span>Laravel</span>
                       <span>PHP</span>
                       <span>BOOTStRAP</span>
+                      <span>JQUERY</span>
                     </div>
 
                     <a href="https://innovatechcol.com.co/" target="_blank" className="a-send">Let's see it! 
@@ -114,71 +117,13 @@ export function Projects() {
 
           {desktop && (
             <>
-              <div className="projects ">
-                <div className="project-image">
-                  <div className="ProjectImage">
-                    <img src="" alt="project image" />
-                  </div>
-                </div>
-                <div className="project-info-container">
-                  <div className="project-info ">
-                    <h4>name desktop</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Ipsam saepe iusto voluptatum? Reiciendis veniam labore
-                      libero explicabo at expedita possimus repellendus
-                      corrupti, iste tempore quia consectetur, magni ducimus.
-                      Ullam, illo.
-                    </p>
-
-                    <h6>Tools Used</h6>
-                    <div className="tools">
-                      <span>JavaScript</span>
-                      <span>Html</span>
-                      <span>CSS</span>
-                      <span>React</span>
-                    </div>
-                    <a href="https://innovatechcol.com.co/" target="_blank" className="a-send">Let's see it! 
-                    <span><img src={view} alt="" width={20}   className="view-eye"/></span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <div></div>
             </>
           )}
           {/* Projects mobile */}
           {mobile && (
             <>
-              <div className="projects ">
-                <div className="project-image">
-                  <div className="ProjectImage">
-                    <img src="" alt="project image" />
-                  </div>
-                </div>
-                <div className="project-info-container">
-                  <div className="project-info ">
-                    <h4>name mobile</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Ipsam saepe iusto voluptatum? Reiciendis veniam labore
-                      libero explicabo at expedita possimus repellendus
-                      corrupti, iste tempore quia consectetur, magni ducimus.
-                      Ullam, illo.
-                    </p>
-
-                    <h6>Tools Used</h6>
-                    <div className="tools">
-                      <span>JavaScript</span>
-                      <span>Html</span>
-                      <span>CSS</span>
-                      <span>React</span>
-                    </div>
-                    <a href="https://innovatechcol.com.co/" target="_blank" className="a-send">Let's see it! 
-                    <span><img src={view} alt="" width={20}   className="view-eye"/></span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <div></div>
             </>
           )}
         </div>

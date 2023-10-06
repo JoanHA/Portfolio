@@ -88,3 +88,182 @@
   /* fill: #e4e4e4; */
   
 }
+/* Responsive design */
+@media screen and (max-width:787px) {
+  #nameTitle{
+    font-size: 2rem !important;
+  }
+  #titleDescription{
+      font-size: medium !important;
+  }
+  
+}
+@media screen and (max-width:575px) {
+  #nameTitle{
+    font-size: xx-large !important;
+  }
+  #titleDescription{
+      font-size: small !important;
+  }
+  
+}
+@media screen and (max-width:564px) {
+  #nameTitle{
+    font-size: x-large !important;
+  }
+  #contenedor{
+    padding: 220px 80px !important;
+  }
+  #titleDescription{
+      font-size: small !important;
+      text-align: center;
+      width: 100%;
+  }
+  #homeButton{
+    height: 50px;
+   width: 50px;
+  }
+  
+}
+
+@media screen and (max-width:475px) {
+  #nameTitle{
+    font-size: x-large !important;
+  }
+  #contenedor{
+    padding: 220px 80px !important;
+  }
+  #titleDescription{
+      font-size: small !important;
+      text-align: center;
+      width: 100%;
+  }
+  #homeButton{
+    height: 50px;
+   width: 50px;
+  }
+  #socials{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:380px) {
+  #nameTitle{
+    font-size: xx-large !important;
+  }
+  #contenedor{
+    padding: 150px 60px !important;
+  }
+  #titleDescription{
+      font-size: medium !important;
+      text-align: center;
+      width: 100%;
+  }
+  #homeButton{
+    height: 50px;
+   width: 50px;
+  }
+  #socials{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:330px) {
+  #nameTitle{
+    font-size: xx-large !important;
+  }
+  #contenedor{
+    padding: 150px 60px !important;
+  }
+  #titleDescription{
+      font-size: medium !important;
+      text-align: center;
+      width: 100%;
+  }
+  #homeButton{
+    width : 170px !important;
+    height: 37px;
+    margin-top: 10px;
+     font-weight: bold;
+     font-size: small!important;
+    
+   padding: 6px !important;
+   border-radius: 10px;
+   /* background-color: #12a14b; */
+   background-color: #7843e9;
+   border:  2px solid  #7843e9;
+  }
+  #homeButton a{
+    padding: 2% 2% !important;
+  }
+  #socials{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:317px) {
+  #nameTitle{
+    font-size: x-large !important;
+  }
+  #contenedor{
+    padding: 150px 60px !important;
+  }
+  #titleDescription{
+      font-size: small !important;
+      text-align: center;
+      width: 100%;
+  }
+  #homeButton{
+    width : 170px !important;
+    height: 37px;
+    margin-top: 10px;
+     font-weight: bold;
+     font-size: small!important;
+    
+   padding: 6px !important;
+   border-radius: 10px;
+   /* background-color: #12a14b; */
+   background-color: #7843e9;
+   border:  2px solid  #7843e9;
+  }
+  #homeButton a{
+    padding: 2% 2% !important;
+  }
+  #socials{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:284px) {
+  #nameTitle{
+    font-size: xx-large !important;
+  }
+  #contenedor{
+    padding: 150px 60px !important;
+  }
+  #titleDescription{
+      font-size: smaller !important;
+      text-align: center;
+      width: 100%;
+  }
+  #homeButton{
+    width : 170px !important;
+    height: 37px;
+    margin-top: 10px;
+     font-weight: bold;
+     font-size: small!important;
+    
+   padding: 6px !important;
+   border-radius: 10px;
+   /* background-color: #12a14b; */
+   background-color: #7843e9;
+   border:  2px solid  #7843e9;
+  }
+  #homeButton a{
+    padding: 2% 2% !important;
+  }
+  #socials{
+    display: none;
+  }
+  
+}
